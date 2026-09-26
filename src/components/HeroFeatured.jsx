@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Sparkles, Star } from 'lucide-react';
+import heroArcadeImg from '../assets/images/hero_arcade_showcase_1790431326240.jpg';
 
 export const HeroFeatured = ({ game, onPlayGame }) => {
   return (
@@ -7,7 +8,7 @@ export const HeroFeatured = ({ game, onPlayGame }) => {
       {/* Background Graphic */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_arcade_showcase_1790431326240.jpg"
+          src={heroArcadeImg}
           alt="Arcade lounge setup"
           referrerPolicy="no-referrer"
           className="h-full w-full object-cover object-center opacity-35 filter brightness-75 contrast-110"

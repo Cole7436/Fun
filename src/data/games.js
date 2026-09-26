@@ -1,3 +1,9 @@
+import heroArcadeImg from '../assets/images/hero_arcade_showcase_1790431326240.jpg';
+import thumbSnakeImg from '../assets/images/thumb_retro_snake_1790431336564.jpg';
+import thumbBlockImg from '../assets/images/thumb_block_puzzle_1790431346375.jpg';
+import thumbAsteroidsImg from '../assets/images/thumb_space_asteroids_1790431357268.jpg';
+import thumbBrickImg from '../assets/images/thumb_brick_breaker_1790431366791.jpg';
+
 export const INITIAL_GAMES = [
   {
     id: "snake",
@@ -8,9 +14,9 @@ export const INITIAL_GAMES = [
     plays: "54.2K",
     controls: "Arrow Keys / WASD to steer, Space to pause, R to restart",
     tags: ["Arcade", "Retro", "Classic"],
-    thumbnail: "/src/assets/images/thumb_retro_snake_1790431336564.jpg",
-    iframeUrl: "/games/snake.html",
-    iframeCode: `<iframe src="/games/snake.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Snake Classic"></iframe>`,
+    thumbnail: thumbSnakeImg,
+    iframeUrl: "./games/snake.html",
+    iframeCode: `<iframe src="./games/snake.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Snake Classic"></iframe>`,
     featured: true
   },
   {
@@ -22,9 +28,9 @@ export const INITIAL_GAMES = [
     plays: "88.1K",
     controls: "←/→ Move, ↑ Rotate, ↓ Soft drop, Space Hard drop",
     tags: ["Puzzle", "Logic", "Strategy"],
-    thumbnail: "/src/assets/images/thumb_block_puzzle_1790431346375.jpg",
-    iframeUrl: "/games/tetris.html",
-    iframeCode: `<iframe src="/games/tetris.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Block Blast"></iframe>`,
+    thumbnail: thumbBlockImg,
+    iframeUrl: "./games/tetris.html",
+    iframeCode: `<iframe src="./games/tetris.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Block Blast"></iframe>`,
     featured: true
   },
   {
@@ -36,9 +42,9 @@ export const INITIAL_GAMES = [
     plays: "41.6K",
     controls: "←/→ Turn, ↑ Thrust, Space Fire laser cannons",
     tags: ["Action", "Sci-Fi", "Shooter"],
-    thumbnail: "/src/assets/images/thumb_space_asteroids_1790431357268.jpg",
-    iframeUrl: "/games/asteroids.html",
-    iframeCode: `<iframe src="/games/asteroids.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Space Asteroids"></iframe>`,
+    thumbnail: thumbAsteroidsImg,
+    iframeUrl: "./games/asteroids.html",
+    iframeCode: `<iframe src="./games/asteroids.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Space Asteroids"></iframe>`,
     featured: true
   },
   {
@@ -50,9 +56,9 @@ export const INITIAL_GAMES = [
     plays: "32.4K",
     controls: "Mouse Move or ←/→ to steer paddle, Space to release ball",
     tags: ["Arcade", "Skill", "Breakout"],
-    thumbnail: "/src/assets/images/thumb_brick_breaker_1790431366791.jpg",
-    iframeUrl: "/games/breakout.html",
-    iframeCode: `<iframe src="/games/breakout.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Brick Breaker DX"></iframe>`,
+    thumbnail: thumbBrickImg,
+    iframeUrl: "./games/breakout.html",
+    iframeCode: `<iframe src="./games/breakout.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Brick Breaker DX"></iframe>`,
     featured: true
   },
   {
@@ -64,9 +70,9 @@ export const INITIAL_GAMES = [
     plays: "67.9K",
     controls: "Arrow Keys or WASD to slide all tiles across grid",
     tags: ["Puzzle", "Math", "Casual"],
-    thumbnail: "/src/assets/images/thumb_block_puzzle_1790431346375.jpg",
-    iframeUrl: "/games/2048.html",
-    iframeCode: `<iframe src="/games/2048.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="2048 Numeric Matrix"></iframe>`,
+    thumbnail: thumbBlockImg,
+    iframeUrl: "./games/2048.html",
+    iframeCode: `<iframe src="./games/2048.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="2048 Numeric Matrix"></iframe>`,
     featured: false
   },
   {
@@ -78,9 +84,9 @@ export const INITIAL_GAMES = [
     plays: "29.7K",
     controls: "W / S or Up / Down or Mouse vertical movement",
     tags: ["Retro", "Sports", "2-Player"],
-    thumbnail: "/src/assets/images/hero_arcade_showcase_1790431326240.jpg",
-    iframeUrl: "/games/pong.html",
-    iframeCode: `<iframe src="/games/pong.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Arcade Pong Classic"></iframe>`,
+    thumbnail: heroArcadeImg,
+    iframeUrl: "./games/pong.html",
+    iframeCode: `<iframe src="./games/pong.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Arcade Pong Classic"></iframe>`,
     featured: false
   },
   {
@@ -92,9 +98,9 @@ export const INITIAL_GAMES = [
     plays: "49.3K",
     controls: "Spacebar or Mouse Click to flap and elevate",
     tags: ["Action", "Endless", "Arcade"],
-    thumbnail: "/src/assets/images/thumb_retro_snake_1790431336564.jpg",
-    iframeUrl: "/games/flappy.html",
-    iframeCode: `<iframe src="/games/flappy.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Flappy Glide"></iframe>`,
+    thumbnail: thumbSnakeImg,
+    iframeUrl: "./games/flappy.html",
+    iframeCode: `<iframe src="./games/flappy.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Flappy Glide"></iframe>`,
     featured: false
   },
   {
@@ -106,9 +112,9 @@ export const INITIAL_GAMES = [
     plays: "38.5K",
     controls: "Left click to uncover cell, Right click to plant red flag",
     tags: ["Classic", "Puzzle", "Logic"],
-    thumbnail: "/src/assets/images/hero_arcade_showcase_1790431326240.jpg",
-    iframeUrl: "/games/minesweeper.html",
-    iframeCode: `<iframe src="/games/minesweeper.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Retro Minesweeper"></iframe>`,
+    thumbnail: heroArcadeImg,
+    iframeUrl: "./games/minesweeper.html",
+    iframeCode: `<iframe src="./games/minesweeper.html" width="100%" height="600" allow="fullscreen; autoplay" style="border:0; border-radius:12px;" title="Retro Minesweeper"></iframe>`,
     featured: false
   }
 ];

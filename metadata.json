@@ -1,0 +1,6 @@
+{
+  "name": "PortalPlay - Unblocked Games Hub",
+  "description": "Play curated unblocked web games embedded directly in responsive iframe sandboxes with theater mode, favorites, and custom game management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
